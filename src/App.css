@@ -1,0 +1,5 @@
+.main-body {
+  grid-column: var(--body-width);
+  grid-row: var(--body-height);
+  min-height: calc(100dvh - var(--main-navigation-height) - var(--footer-height));
+}

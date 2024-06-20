@@ -1,0 +1,4 @@
+.main-navigation-menu {
+  grid-column: var(--main-navigation-width);
+  background-color: red;
+}
