@@ -1,0 +1,16 @@
+:root {
+  --main-navigation-height: 80px;
+  --main-navigation-width: 1 / span 4;
+  --side-navigation-height: 2 / span 3;
+  --side-navigation-width: 200px;
+  --footer-height: 200px;
+  --footer-width: 1 / span 4;
+  --body-width: 2 / span 4;
+  --body-height: 2 / span 3;
+}
+
+.page-layout {
+  display: grid;
+  grid-template-columns: var(--side-navigation-width) 1fr 1fr 1fr;
+  grid-template-rows: var(--main-navigation-height) 1fr 1fr 1fr var(--footer-height);
+}

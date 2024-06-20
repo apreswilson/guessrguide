@@ -1,0 +1,4 @@
+.page-footer {
+  grid-column: var(--footer-width);
+  background-color: blue;
+}

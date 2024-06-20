@@ -1,0 +1,4 @@
+.side-navigation-menu {
+  grid-row: var(--side-navigation-height);
+  background-color: green;
+}
